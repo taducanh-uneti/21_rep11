@@ -1,0 +1,53 @@
+/* 1. Divide the screen into two halves */
+.main-flex {
+    display: flex;
+    justify-content: center;
+}
+/* 2. Style for the input part */
+.form-box {
+    flex: 0 0 30%;
+    border: 1px solid;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+/* Vertical align label and input */
+.form-box label,
+.form-box input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+}
+/* Button style: fixed width, centered text */
+.form-box button {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px 0;
+    text-align: center;
+}
+/* 3. Style for the table part */
+.table-box {
+    flex: 0 0 70%;
+    min-width: 300px;
+    max-width: 900px;    
+}
+/* Center table heading */
+.table-box h2 {
+    text-align: center;
+}
+/* Center the table and style border */
+.center-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.center-table th,
+.center-table td {
+    padding: 8px 12px;
+}
+/* Center ma_hang and thao_tac columns */
+.center-table td.ma_hang,
+.center-table td.thao_tac {
+    text-align: center;
+}

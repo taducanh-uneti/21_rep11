@@ -1,0 +1,17 @@
+/* Center the table heading */
+h2 {
+    text-align: center;
+}
+/* Center the table and style border */
+.center-table {
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+.center-table th,
+.center-table td {
+    padding: 8px 12px;
+}
+.center-table td.ma_hang,
+.center-table td.thao_tac {
+    text-align: center;
+}
